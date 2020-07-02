@@ -1,11 +1,4 @@
-# Holy flying flamingoes that manz tarded
-##
 
-
-# All of these are functions that I thought within like two seconds
-# Is random in math?!?!?
-
-# I did all these before he finished his first one
 
 import random
 
@@ -19,7 +12,6 @@ def shuffle1(word):
         word += char
     return word
 
-# Better than what he wanted to do at the start
 def shuffle2(word):
     new_word = ''
     word_list = list(word)
@@ -29,7 +21,6 @@ def shuffle2(word):
         del word_list[random_indici]
     return new_word
 
-# The shit he was trina pull at the start
 def shuffle3(word):
     new_word = ''
     swaps = []
